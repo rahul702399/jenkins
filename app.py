@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/info")
 def lwinfo():
-    return "I am Harsh from India"
+    return "I am rahul from India"
 
 @app.route("/phone")
 def lwphone():
